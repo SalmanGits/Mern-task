@@ -1,8 +1,6 @@
 const express = require("express");
 const router = express.Router();
-
 const Todo = require("../models/Todos");
-
 router.get("/", (req, res) => {
   res.send("hello");
 });
