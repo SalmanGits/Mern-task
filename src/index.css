@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #000000, #361f2e, #5b3c68, #6465b1, #0097ff);
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.main-div{
+  display: flex;
+  height: 35vh;
+  width: 35vw;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 8px;
+
+
+
+
+
+  box-shadow: rgba(255, 251, 251) 0px 7px 15px 0px;
+}
+.main-div input{
+  width: 200px;
+  padding: .5rem .2rem;
+  border-radius: 6px;
+  margin-bottom: .5rem;
+  outline: none;
+  border: 1px solid black;
+
+}
+.btn{
+
+  padding: .5rem .2rem;
+  width:210px;
+  border: 1px solid black;
+  border-radius:6px;
+  transition:all 0.3s ease-in-out;
+  color: white;
+  background-color:blue;
+  cursor:pointer;
+}
+.btn:hover{
+  background-color:rgb(1, 1, 60);
+}
+ul{
+  list-style: none;
+}
+.list-div{
+  display: flex;
+  color: white;
+  padding:0.7rem;
+  gap: 10px;
+  box-shadow: rgba(255, 251, 251) 0px 6px 8px 0px;
+margin-top: 20px;
+  flex-direction: column;
+  line-height: 1.4rem;
+}
+.edit{
+  font-size: 20px;
+  color: white;
+
+}
+.delete{
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.icon{
+  display: flex;
+  gap: 20px;
+}
